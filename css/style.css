@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(240, 238, 230);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+     background-color: rgb(35, 35, 45);
+}
+
+header p {
+    flex: 1;
+}
+
+h1 {
+    flex: 1;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 155, 61);
+    font-size: 30px;
+}
+
+header h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(218, 181, 92);
+}
+
+strong {
+    color: rgb(218, 181, 92);
+    font-size: small;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+span {
+    color:  rgb(218, 181, 92);;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#introducao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px 25px;
+    background-color: rgb(116, 27, 45);
+}
+
+#introducao article {
+    flex: 1;
+    color: white;
+}
+
+#introducao h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#introducao img {
+    width: 350px;
+    height: 250px;
+    object-fit: contain;
+}
+
+#cards {
+    padding: 30px 25px;
+    background-color: rgb(240, 238, 230);
+}
+
+#cards h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+       background-color: white;
+    width: 32%;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-color: rgb(230, 230, 230);
+}
+
+.card h3 {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.card p {
+    margin: 10px;
+    font-size: 15px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #22222c;
+    color: white;
+    text-align: center;
+}
