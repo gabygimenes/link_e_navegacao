@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f0e8;
+    color: #bd3b3b;
+    margin: 0;
+}
+
+
+
+
+header {
+    background-color: #861511;
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header p {
+    color: #d4af37;
+    font-size: 22px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+main {
+    padding: 40px 30px;
+}
+
+h1 {
+    color: #7d1930;
+    font-family: Georgia, serif;
+    font-size: 38px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+
+
+.curiosidades-conteudo {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+
+
+
+.imagem-curiosidade {
+    width: 35%;
+    background-color: #24232d;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.imagem-curiosidade p {
+    color: white;
+}
+
+.imagem-curiosidade h2 {
+    color: #d4af37;
+    font-size: 35px;
+}
+
+
+
+
+.lista-curiosidades {
+    width: 65%;
+}
+
+.fato {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid #7d1930;
+}
+
+.fato h3 {
+    color: #7d1930;
+}
+
+
+
+
+.chamada {
+    background-color: #24232d;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.chamada h2 {
+    color: white;
+}
+
+.chamada a {
+    background-color: #7d1930;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+
+
+footer {
+    background-color: #24232d;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
