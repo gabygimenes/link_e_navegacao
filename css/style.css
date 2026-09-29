@@ -13,15 +13,11 @@ header {
     display: flex;
     align-items: center;
     padding: 20px;
-     background-color: rgb(35, 35, 45);
+    background-color: rgb(35, 35, 45);
 }
 
-header p {
-    flex: 1;
-}
 
 h1 {
-    flex: 1;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(255, 155, 61);
@@ -35,27 +31,22 @@ header h2 {
 
 strong {
     color: rgb(218, 181, 92);
-    font-size: small;
 }
 
-nav {
-    flex: 1;
+header section {
     display: flex;
-    justify-content: flex-end;
-    gap: 25px;
+    gap: 20px;
 }
 
-nav a {
+header section a {
     color: white;
-    text-decoration: none;
 }
 
 #introducao {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 30px;
-    padding: 40px 25px;
+    padding: 40px;
     background-color: rgb(116, 27, 45);
 }
 
@@ -67,18 +58,16 @@ nav a {
 #introducao h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
-    margin-top: 15px;
     margin-bottom: 15px;
 }
 
 #introducao img {
     width: 350px;
     height: 250px;
-    object-fit: contain;
 }
 
 #casas {
-    padding: 35px 25px;
+    padding: 35px;
     background-color: rgb(35, 35, 45);
     color: white;
 }
@@ -95,150 +84,63 @@ nav a {
     gap: 15px;
 }
 
-#casas .card {
-    width: 23%;
+.card {
+    width: 20%;
     background-color: white;
     color: black;
     padding-bottom: 15px;
     border-radius: 10px;
-    overflow: hidden;
 }
 
 .card img {
     width: 100%;
-    height: auto;
 }
 
-.card h3 {
-    margin: 10px;
-    font-size: 18px;
-}
-
+.card h3,
 .card p {
     margin: 10px;
-    font-size: 15px;
 }
 
-
-#casas {
-    padding: 40px 25px;
-    background-color: rgb(35, 35, 45);
+#universo {
+    padding: 35px;
+    background-color: rgb(116, 27, 45);
     color: white;
 }
 
-#casas h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-#casas .card {
-    width: 23%;
-}
-
-
-#universo {
-    padding: 40px 25px;
-    background-color: rgb(240, 238, 230);
-}
-
-#universo h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    margin-bottom: 15px;
-}
-
-#universo p {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-
-#historia {
-    padding: 40px 25px;
-    background-color: rgb(116, 27, 45);
-    color: rgb(68, 25, 25);
-}
-
-#historia h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    margin-bottom: 15px;
-}
-
-#historia p {
-    font-size: 16px;
-    margin-bottom: 10px;
-    color: black;
-}
-
-#hogwarts {
-    padding: 35px 25px;
-    background-color: rgb(240, 238, 230);
-}
-
+#universo h2,
+#historia h2,
 #hogwarts h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
-    color: rgb(116, 27, 45);
     margin-bottom: 15px;
 }
 
+#universo h2 {
+    color: rgb(218, 181, 92);
+}
+
+#historia {
+    padding: 35px;
+    background-color: rgb(240, 238, 230);
+}
+
+#historia h2 {
+    color: rgb(116, 27, 45);
+}
+
+#historia p,
+#universo p,
 #hogwarts p {
     margin-bottom: 10px;
 }
 
-
-#casas {
-    padding: 35px 25px;
-    background-color: rgb(35, 35, 45);
-    color: white;
-}
-
-#casas h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    color: rgb(218, 181, 92);
-    margin-bottom: 20px;
-}
-
-#casas .card {
-    width: 23%;
-}
-
-
-#universo {
-    padding: 35px 25px;
-    background-color: rgb(116, 27, 45);
-    color: white;
-}
-
-#universo h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    color: rgb(218, 181, 92);
-    margin-bottom: 15px;
-}
-
-#universo p {
-    margin-bottom: 10px;
-}
-
-
-#historia {
-    padding: 35px 25px;
+#hogwarts {
+    padding: 35px;
     background-color: rgb(240, 238, 230);
 }
 
-#historia h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+#hogwarts h2 {
     color: rgb(116, 27, 45);
-    margin-bottom: 15px;
-}
-
-#historia p {
-    margin-bottom: 10px;
 }
 
 footer {
