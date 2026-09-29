@@ -101,12 +101,18 @@ footer {
     background-color: rgb(35, 35, 45);
     color: white;
     padding: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #menu-final {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
     gap: 20px;
     margin-top: 10px;
 }
